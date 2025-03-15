@@ -1,0 +1,82 @@
+body{
+  margin: 0;
+  padding: 25px;
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+  background-color: #fdfbfc;
+  border-radius: 8px;
+  }
+
+#main{
+  background-color: #cfcfcf;
+  border-radius: 8px;
+  padding:20px;
+  max-width:100%;
+  margin: 0 auto;
+}
+
+#title {
+text-align: center;
+font-family: sans-serif;
+margin-bottom: 20px;
+}
+
+#bio{
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+img{
+  display: block;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+/*Your #image should be centered within its parent.... i did using flexbox */
+#img-div{
+  margin: 20px 30px;
+  background-color: #fdfbfc;
+  padding: 20px 25px;
+
+}
+#img-caption{
+margin-top: 10px;
+font-size: 1rem;
+}
+
+h3{
+  text-align: center;
+  margin: 40px;
+}
+#tribute-info{
+margin: 20px 0;
+text-align: left;
+}
+#quote{
+  text-align: left;
+  margin-left: 40px;
+  font-style: italic;
+  font-weight: 200;
+  padding: 40px 0;
+}
+
+a{
+  color: black;
+}
+a:hover{
+  color: white;
+}
+
+p:last-of-type{
+  padding: 20px 0;
+  font-weight: bold;
+  text-align: center;
+}
